@@ -6,69 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Currículum</title>
     <style>
+        body{
+            background-color: rgba(248,246,246,255);
+        }
         #vuelta{
             text-align: right;
             font-size: large;
         }
-        h1{
-            color: rgb(107, 0, 0);
+        header{
+            color: rgb(0, 0, 0);
             text-align: center;
-
+            
         }
-        #lorem1{
-            text-align: center;
-            width: 30%;
-            height: 200px;
-            overflow: hidden;
-            background-color: aquamarine;
-            display: inline-block;
-            margin-left: 10px;
-            margin-right: 10px;
-            margin:0px 10px 0px 10 px;
+        #fotoperfil{
+            float: left;
+            margin-left: 3%;
+            
         }
-        #lorem2{
-            text-align: center;
-            width: 400px;
-            height: 400px;
-            overflow: scroll;
-            background-color: brown;
-            color: black;
-            font-weight: bold;
-            display: inline-block;
-            padding: 30px;
-            margin-left: 50px;
-        }
-        #lorem3{
+        #hobbies{
             text-align: right;
+            margin-right: 2%;
+        
+            
+        }
+        #foto2{
+            text-align: right;
+            margin-right: 2%;
+        
+            
+        }
+        h3{
+            text-align: center;
+            color: rgb(124, 23, 23);
+        }
+        #sobremi{
+            border-style: groove;
+            display: inline-block;
+            font-size: 25px;
+            width: 50%;
+            height: 100%;
+            overflow:visible;
+            background-color: aquamarine;
+            padding: 10px;
+            padding-left: 15px;
+            margin-left: 22%;
+            margin-top: -250px;
+
+            
+        }
+        #lista1{
+            text-align: left;
+            
+        }
+        #lista2{
+            font-size: 20px;
+            line-height: 1.5;
+        }      
+        #lista3{
+            font-size: 20px;
+            line-height: 1.5;
+        }      
+        #Educacion{
+            text-align: left;
+            width: 50%;
+            height: 50%;
+            display: inline-block;
+            padding: 15px;
+            background-color: aqua;
+        }
+        #experiencia{
+            text-align: left;
+            font-size: large;
             width: 25%;
-            height: 50px;
-            overflow: hidden;
+            height: 550px;
+            overflow: visible;
             background-color: rgb(31, 99, 46);
             color: black;
-            font-style:italic;
             display: inline-block;
             padding: 10px;
             margin-left: 1cm;
         }
+        #parrafo1{
+            text-align: right;
+        }
     </style>
 </head>
 <body>
-    <h1>Mi currículum</h1>
-    <h2>Mostrando elementos y estilos varios</h2>
-    <div id="lorem1">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam nostrum, voluptas, numquam et autem voluptates necessitatibus quam ea sapiente odio sit velit iusto aperiam quisquam, qui maxime eum rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum dignissimos culpa nihil recusandae, exercitationem debitis unde nobis laudantium sunt saepe, est libero aliquam et impedit ducimus quasi ab. Quos!</p>
+    <header>
+    <h1>Álvaro Guerrero</h1>
+    <h3>Comunicación Audiovisual y Desarrollo de Apps Multiplataforma</h3>
+    <img id="fotoperfil" src="/images/Foto1.png" alt="Perfil" width="250" height="250">
+    <div id="hobbies">
+        <img id="foto2" src="/images/Foto2.png" alt="mis hobbies">
     </div>
-    <div id="lorem2">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam nostrum, voluptas, numquam et autem voluptates necessitatibus quam ea sapiente odio sit velit iusto aperiam quisquam, qui maxime eum rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum dignissimos culpa nihil recusandae, exercitationem debitis unde nobis laudantium sunt saepe, est libero aliquam et impedit ducimus quasi ab. Quos!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam nostrum, voluptas, numquam et autem voluptates necessitatibus quam ea sapiente odio sit velit iusto aperiam quisquam, qui maxime eum rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum dignissimos culpa nihil recusandae, exercitationem debitis unde nobis laudantium sunt saepe, est libero aliquam et impedit ducimus quasi ab. Quos!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam nostrum, voluptas, numquam et autem voluptates necessitatibus quam ea sapiente odio sit velit iusto aperiam quisquam, qui maxime eum rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum dignissimos culpa nihil recusandae, exercitationem debitis unde nobis laudantium sunt saepe, est libero aliquam et impedit ducimus quasi ab. Quos!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam nostrum, voluptas, numquam et autem voluptates necessitatibus quam ea sapiente odio sit velit iusto aperiam quisquam, qui maxime eum rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum dignissimos culpa nihil recusandae, exercitationem debitis unde nobis laudantium sunt saepe, est libero aliquam et impedit ducimus quasi ab. Quos!</p>
+    </header>
+
+    <br>
+    <main>
+    <div id="sobremi">
+        <p>Sobre mí: 
+            Futuro programador, actor de doblaje y locutor de radio. Nací en Córdoba en 1994, pero llevo toda la vida viviendo en Málaga. Soy una persona responsable de mente inquieta, siempre con ganas de aprender y trabajar en equipo. <span style="color: rgb(119, 2, 2);"><u>Actualmente</u></span> trabajo como:
+        </p>
+            <ul id="lista1">
+                <li>Profesor de inglés en academia English Connection</li>
+                <li>Traductor y coordinador no oficial de videojuegos</li>
+                <li>Diseñador gráfico y editor de vídeo</li>
+                <li>Guionista de ficciones sonoras</li>
+            </ul>
+        </div>
+    </main>
+    <br>
+    <section>
+        <div id="Educacion">
+            <h2><mark>Mi educación</mark></h2>
+        <ol id="lista2">
+            <li>Graduado en Comunicación Audiovisual - Universidad de Málaga <strong>(2015-2019)</strong></li>
+            <li>Certificate of Proficiency in English - Cambridge Asessment English. Cred. ID: 500/2429/2 <strong>(2017)</strong></li>
+            <li>Graduado en Comunicación Audiovisual - Universidad de Málaga <strong>(2012-2014)</strong> - <i>sin terminar</i></li>
+            <li>Bachillerato Ciencias Sociales - Instituto "Santa Rosa de Lima" <strong>(2010-2012)</strong>)</li>
+        </ol>
+        </div>
+    </section>
+    <br>
+    <article>
+        <div id="experiencia">
+            <h2><span>Experiencia laboral</span></h2>
+                <ul id="lista3">
+                    <li>Profesor de inglés - Academia <i>English Connection Av. Europa</i> (actualmente)</li>
+                    <li>Clases particulares de inglés (agosto 2018 - actualmente)</li>
+                    <li>Profesor de inglés - Academia <i>Speak-Up</i> (agosto 2021 - junio 2022)</li>
+                    <li>Presentador de radio, redactor, editor y mezcla de TV - <i>Comutopía RTV</i> (febrero 2019 - mayo 2019)</li>
+                </ul>
+            <p id="parrafo1">Además de lo expuesto, he realizado prácticas con labores de Márketing y Comunicación, así como de diseñador gráfico en dos empresas (<i>Taller Empresarial 2.0</i> y <i>GSL Consultoría</i>). También fui Ayudante de diseño de iluminación y Técnico de iluminación de un espectáculo en directo en el recital <i>El croar de la rana</i> realizado en el Centro Cultural Conde Duque en Madrid el 16 de octubre de 2020.</p>
+        </div>
+    </article>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="hobbies">
+        <img id="foto3" src="/images/Foto 3.png" alt="mis hobbies">
     </div>
-    <div id="lorem3">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium aliquam nostrum, voluptas, numquam et autem voluptates necessitatibus quam ea sapiente odio sit velit iusto aperiam quisquam, qui maxime eum rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque harum dignissimos culpa nihil recusandae, exercitationem debitis unde nobis laudantium sunt saepe, est libero aliquam et impedit ducimus quasi ab. Quos!</p>
-    </div>
     <br>
-    <br>
-    <br>
-    <br>
-    <img src="/images/Currículum Septiembre 2022_page-0001.jpg" alt="mi cv" width="600px" height="800px">
     <br>
     <a target="_blank" href="https://drive.google.com/file/d/1sA8xMTRhfHhBFCSLqieCUbeUx28f6zbF/view?usp=sharing">Pulsa aquí para ver mi currículum en PDF</a> <br>
     <p><a href="index.html" >
